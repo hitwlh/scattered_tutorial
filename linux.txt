@@ -26,3 +26,8 @@ who                 显示在线登陆用户
 hostname            显示主机名
 uname               显示系统信息
 netstat             显示网络状态信息
+
+
+其它实例：
+find /home -name "*.txt"
+http://man.linuxde.net/find
