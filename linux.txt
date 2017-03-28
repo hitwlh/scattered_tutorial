@@ -1,17 +1,17 @@
 打包压缩相关命令
-tar:                打包压缩
+tar:               打包压缩
 
-	-c              归档文件
+	-c             归档文件
 
-	-x              压缩文件
+	-x             压缩文件
 
-	-z              gzip压缩文件
+	-z             gzip压缩文件
 
-	-j              bzip2压缩文件
+	-j             bzip2压缩文件
 
-	-v              显示压缩或解压缩过程 v(view)
+	-v             显示压缩或解压缩过程 v(view)
 
-	-f				使用档名
+	-f             使用档名
 
 tar -zxvf xxx.tar.gz
 tar -jxvf xxx.tar.bz2
