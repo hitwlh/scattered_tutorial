@@ -27,7 +27,10 @@ hostname            显示主机名
 uname               显示系统信息
 netstat             显示网络状态信息
 
+ /proc/version      当前操作系统版本信息
+ /etc/issue         当前操作系统发行版信息
 
-其它实例：
+
+其它实例：(http://man.linuxde.net/find)
 find /home -name "*.txt"
-http://man.linuxde.net/find
+file filename
