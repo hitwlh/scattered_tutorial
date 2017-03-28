@@ -1,0 +1,28 @@
+打包压缩相关命令
+tar:                打包压缩
+
+	-c              归档文件
+
+	-x              压缩文件
+
+	-z              gzip压缩文件
+
+	-j              bzip2压缩文件
+
+	-v              显示压缩或解压缩过程 v(view)
+
+	-f				使用档名
+
+tar -zxvf xxx.tar.gz
+tar -jxvf xxx.tar.bz2
+tar -x xxx.tar
+
+
+
+系统管理命令
+ps					显示瞬间进程状态 													ps -aux
+kill				杀死进程，可以先用ps 或 top命令查看进程的id，然后再用kill命令杀死进程		kill 3268
+who					显示在线登陆用户
+hostname			显示主机名
+uname				显示系统信息
+netstat				显示网络状态信息
